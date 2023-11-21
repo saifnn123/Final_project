@@ -1,0 +1,153 @@
+
+:root{
+  --mainColor:#68d0f3;
+  --secandaryColor:#808080;
+  --thiredColor:white;
+}
+.header-section{
+  background-image: url("../img/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.section1 a{
+  text-decoration: none;
+}
+.id{
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.41);
+}
+.navbar{
+  background-color: var(--secandaryColor);
+  border-radius: 20px;
+  padding-top: 90px;
+
+}
+.navbar-nav .nav-link {
+  color: var(--mainColor);
+  font-size: 1.3rem;
+}
+
+
+
+.section1 h5{
+color: var(--secandaryColor);
+font-weight: bolder;
+}
+.section1 p{
+color: var(--secandaryColor);
+}
+.section1 img{
+border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.section1 img:hover{
+  transform: scale(1.1);
+}
+
+.section1 i{
+color: var(--mainColor);
+}
+.line{
+width: 50px;
+height: 2px;
+display: inline-block;
+background-color: rgba(0, 151, 245, 0.723);
+}
+.line2{
+width: 15px;
+height: 2px;
+display: inline-block;
+background-color: rgba(136, 143, 148, 0.723);
+}
+.header h1{
+color: var(--secandaryColor);
+}
+.section1 .h1{
+color: var(--mainColor);
+}
+.see_info i{
+  color: var(--secandaryColor);
+  transition: 0.7s all;
+}
+.see_info i:hover{
+  color: var(--mainColor);
+  transition: 0.7s all;
+}
+.footer{
+  border-radius: 20px;
+  padding: 20px;
+  background-color: var(--secandaryColor);
+}
+.footer h4 {
+  margin-bottom: 20px;
+  color: var(--thiredColor);
+}
+
+.footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: var(--thiredColor);
+}
+
+.footer ul.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer ul.social-media li {
+  margin-right: 10px;
+}
+
+.footer ul.social-media li a {
+  padding: 10px;
+  color: var(--thiredColor);
+  font-size: 20px;
+  transition: 0.6s all;
+ 
+}
+
+.footer ul.social-media li a:hover {
+  color: var(--mainColor);
+  transition: 0.6s all;
+}
+
+.blockquote-custom {
+  padding: 20px;
+  position: relative;
+  font-size: 1.1rem;
+}
+.cardp{
+  padding: 30px;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50px;
+}
+.blockquote-custom h3{
+  color: var(--secandaryColor);
+}
+.blockquote-custom a{
+  color: var(--secandaryColor);
+  text-decoration: none;
+}
+.contact h1{
+  color: var(--mainColor);
+}
+
+
+
+
